@@ -4,3 +4,6 @@ Components that were tried out during this project:
         - Cards
         - Header
         - Footer
+
+
+Sample
