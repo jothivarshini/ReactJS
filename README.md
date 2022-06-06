@@ -1,4 +1,4 @@
-# ReactJS
+# ReactJS Devlog
 
 A repo to store implementations of concepts from ReactJS
 
