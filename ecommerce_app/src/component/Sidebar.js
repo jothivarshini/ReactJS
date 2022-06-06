@@ -1,12 +1,11 @@
 import React from "react";
+import "./flexslider.css"
 
 const Sidebar = () => 
 {
     return (
         <>
-        
-       
-                <div className="side-bar p-sm-4 p-3">
+                <div className="side-bar p-sm-4 p-3 side-bar-size">
                     <div className="search-hotel border-bottom py-2">
                         <h3 className="agileits-sear-head mb-3">Search Here..</h3>
                         <form>
@@ -42,7 +41,7 @@ const Sidebar = () =>
                 </div>
        
 
-        <div className="left-side border-bottom py-2">
+        <div className="left-side border-bottom py-2 side-bar-size ">
 							<h3 className="agileits-sear-head mb-3">Discount</h3>
 							<ul>
 								<li>
@@ -72,9 +71,49 @@ const Sidebar = () =>
 							</ul>
         </div>
 
-        <div className="customer-rev border-bottom left-side py-2">
+        <div className="customer-rev border-bottom left-side py-2 side-bar-size">
 							<h3 className="agileits-sear-head mb-3">Customer Review</h3>
 							<ul>
+								<li>
+									<a href="#">
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<span className>5.0</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<span className>5.0</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<span className>5.0</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<i className="fas fa-star"></i>
+										<span className>5.0</span>
+									</a>
+								</li>
 								<li>
 									<a href="#">
 										<i className="fas fa-star"></i>
@@ -122,7 +161,7 @@ const Sidebar = () =>
 							</ul>
         </div>
 
-		<div className="left-side border-bottom py-2">
+		<div className="left-side border-bottom py-2 side-bar-size">
 							<h3 className="agileits-sear-head mb-3">Electronics</h3>
 							<ul>
 								<li>
@@ -180,7 +219,7 @@ const Sidebar = () =>
 							</ul>
 						</div>
 
-						<div className="left-side border-bottom py-2">
+						<div className="left-side border-bottom py-2 side-bar-size">
 							<h3 className="agileits-sear-head mb-3">Cash On Delivery</h3>
 							<ul>
 								<li>
@@ -190,7 +229,7 @@ const Sidebar = () =>
 							</ul>
 						</div>
 
-						<div className="left-side border-bottom py-2">
+						<div className="left-side border-bottom py-2 side-bar-size">
 							<h3 className="agileits-sear-head mb-3">New Arrivals</h3>
 							<ul>
 								<li>
@@ -204,7 +243,7 @@ const Sidebar = () =>
 							</ul>
 						</div>
 
-						<div className="f-grid py-2">
+						<div className="f-grid py-2 side-bar-size">
 							<h3 className="agileits-sear-head mb-3">Best Seller</h3>
 							<div className="box-scroll">
 								<div className="scroll">

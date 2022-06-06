@@ -3,12 +3,7 @@
     width:100%;
 
 }
-@media (min-width: 992px){
-    .col-lg-9{
-        flex: none !important;
-        max-width: 100% !important;
-    }
-}
+
 
 .product-left
 {
@@ -21,4 +16,9 @@
     width: 25%;
     float: right;
     margin-top: 183px;
+}
+
+.footer-text-align
+{
+    text-align: justify;
 }

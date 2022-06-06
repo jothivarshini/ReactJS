@@ -1,5 +1,7 @@
 import React from "react";
 import Headerbottom from "./Headerbottom";
+import { Link } from "react-router-dom";
+import Carousel from "../component/Carousel";
 
 const Navbar = () => {
     return (
@@ -130,16 +132,11 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto text-center mr-xl-5">
                     <li className="nav-item active mr-lg-2 mb-lg-0 mb-2">
-                        <a className="nav-link" href="/src/component/Home.js">Home
+                        <Link className="nav-link" to="/Home">Home</Link>
                             <span className="sr-only">(current)</span>
-                        </a>
                     </li>
-                    <li className="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            Electronics
-                        </a>
-                        <div className="dropdown-menu">
+                        <Link className="nav-link" to="/Electronics">Electronics</Link>
+                        {/* <div className="dropdown-menu">
                             <div className="agile_inner_drop_nav_info p-4">
                                 <h5 className="mb-3">Mobiles, Computers</h5>
                                 <div className="row">
@@ -201,9 +198,9 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li className="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                        </div> */}
+
+                    {/* <li className="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Appliances
                         </a>
@@ -276,14 +273,14 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> */}
                     <li className="nav-item mr-lg-2 mb-lg-0 mb-2">
-                        <a className="nav-link" href="/src/component/About.js">About Us</a>
+                        <Link className="nav-link" to="/About">About Us</Link>
                     </li>
-                    <li className="nav-item mr-lg-2 mb-lg-0 mb-2">
+                    {/* <li className="nav-item mr-lg-2 mb-lg-0 mb-2">
                         <a className="nav-link" href="#">New Arrivals</a>
-                    </li>
-                    <li className="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                    </li> */}
+                    {/* <li className="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
                         <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Pages
                         </a>
@@ -297,13 +294,18 @@ const Navbar = () => {
                             <a className="dropdown-item" href="#">Checkout Page</a>
                             <a className="dropdown-item" href="#">Payment Page</a>
                         </div>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" href="/src/component/Contact.js">Contact Us</a>
+                    <Link className="nav-link" to="/Contact">Contact Us</Link>
+                        {/* <a className="nav-link" href="/Contact">Contact Us</a> */}
                     </li>
                 </ul>
             </div>
         </nav>
+
+        <div>
+          <Carousel/>
+        </div>
 
         </>
     )

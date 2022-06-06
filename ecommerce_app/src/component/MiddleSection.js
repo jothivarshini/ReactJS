@@ -3,7 +3,7 @@ import React from 'react';
 const MiddleSection = () => {
     return (
         <>
-        <div>
+      
              
         <div className="join-w3l1 py-sm-5 py-4">
 		<div className="container py-xl-4 py-lg-2">
@@ -40,7 +40,7 @@ const MiddleSection = () => {
 		</div>
 	</div>
 
-    </div>
+  
 
         </>
     );

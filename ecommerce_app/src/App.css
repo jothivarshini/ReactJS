@@ -586,7 +586,17 @@ h3.tittle-w3l span {
     padding: 4px 0 0 2px;
     display: none;
 }
-
+.join-w3l1{
+    height: 254px !important;
+}
+.product-div{
+    max-width: 95% !important;
+    flex: none  !important;
+    margin-left: 4%  !important;
+}
+.side-bar-size{
+    width: 85% !important;
+}
 /*-- //cart --*/
 
 /*-- effect on products --*/
